@@ -415,7 +415,9 @@ section .descript {
 }
 
 .reviews {
-    padding: 70px 110px 70px 110px;
+    display: flex;
+    align-items: center;
+    padding: 70px 0 70px 0;
 }
 
 .reviews__item {
@@ -455,4 +457,70 @@ section .descript {
     display: flex;
     align-items: center;
     margin-top: 23px;
+}
+
+#slider__prev {
+   margin-right: 75px;
+}
+
+#slider__next {
+    margin-left: 110px;
+}
+
+.people {
+    display: flex;
+}
+
+.people__men {
+    width: 380px;
+}
+
+.man_name {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #333333;
+}
+
+.people__career{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #a0a0a0;
+    line-height: 15px;
+    margin-top: 10px;
+    padding-bottom: 90px;
+}
+
+.people__about {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.people__men:nth-child(2) {
+    margin: 0 30px;
+}
+
+.people__men img:hover {
+    transform: translate(-10px, -10px);
+    transition: transform .1s linear;
+    box-shadow: 10px 10px 10px #95e1d3;
+}
+
+.achievements {
+background-color: #e9e9e9;
+}
+
+.achievements img {
+    padding: 78px 0;
+}
+
+.our__works img{
+    width: 380px;
+}
+
+.gallery {
+    line-height: 0;
+    letter-spacing: 0;
 }
