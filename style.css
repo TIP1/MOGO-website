@@ -521,6 +521,101 @@ background-color: #e9e9e9;
 }
 
 .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     line-height: 0;
-    letter-spacing: 0;
+}
+
+.gallery .small img {
+    height: 390px;
+    width: 480px;
+}
+
+.gallery .big img {
+    height: 780px;
+    width: 480px;
+}
+
+.slider2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.slider2 .reviews {
+    box-sizing: content-box;
+    height: 210px;
+    display: flex;
+    align-items: center;
+}
+
+.slider2 .reviews__photo{
+    width: 210px;
+    top: -30px;
+}
+
+.slider2 .reviews__text {
+    margin-left: 30px;
+}
+
+.slider2 .author {
+    margin-left: 30px;
+}
+
+.slider2 #slider__prev {
+    margin-right: 45px;
+}
+
+.what__say {
+    background: url('img/02.jpg');
+    height: 830px;
+}
+
+.what__say .words__present {
+    padding-top: 109px;
+    padding-bottom: 40px;
+}
+
+.what__say .men__line1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 42px;
+    margin-left: 48px;
+}
+
+.what__say .men__line2 {
+    margin-top: 76px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 42px;
+    margin-left: 48px;
+}
+
+.men__item {
+    width: 530px;
+    display: flex;
+}
+
+.men__description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+
+.men__human .people__career{
+    padding-bottom: 18px;
+}
+
+.men__human .present__line {
+    margin-bottom: 25px;
+}
+
+.men__item img {
+    width: 110px;
+    height: 110px;
+}
+
+.men__text {
+    text-align: left;
+    width: 390px;
+    margin-left: 30px;
 }
