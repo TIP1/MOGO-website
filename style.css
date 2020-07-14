@@ -792,3 +792,29 @@ footer .footer__p {
     background: #e5e5e5;
     margin-top: 16px;
 }
+
+footer .follow__us {
+    display: flex;
+    margin-top: 12px;
+}
+
+footer .follow__icons {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 14px;
+    margin-left: 21px;
+}
+
+footer .follow__icons img {
+   margin: auto 0;
+}
+
+footer .follow__us p {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #a7a7a7;
+    bottom: -1px;
+}
