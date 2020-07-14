@@ -806,7 +806,7 @@ footer .follow__icons {
 }
 
 footer .follow__icons img {
-   margin: auto 0;
+    vertical-align: middle;
 }
 
 footer .follow__us p {
