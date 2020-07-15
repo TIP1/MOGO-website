@@ -749,11 +749,21 @@ background-color: #e9e9e9;
 
 .content__footer {
     margin-top: 74px;
+    display: flex;
 }
 
 .footer__block__first {
     width: 480px;
     height: 356px;
+}
+
+.footer__block__second {
+    width: 340px;
+    margin-left: 28px;
+}
+
+.footer__block__third {
+    margin-left: 80px;
 }
 
 footer .footer__head {
@@ -817,4 +827,134 @@ footer .follow__us p {
     font-style: italic;
     color: #a7a7a7;
     bottom: -1px;
+}
+
+footer form {
+    display: flex;
+    margin-top: 35px;
+}
+
+.subscribe__input {
+    height: 40px;
+    width: 228px;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-right: 0;
+    padding: 14px 12px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscribe__input::placeholder {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #d3d3d3;
+}
+
+.subscribe__input:focus {
+    outline: 0;
+    border-color: #95e1d3;
+}
+
+.subscribe__btn {
+    height: 40px;
+    width: 150px;
+    background: #95e1d3;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: background .3s linear;
+}
+
+.subscribe__btn:hover {
+    background-color: #6eb8ab;
+    
+}
+
+.subscribe__btn:focus {
+    outline: 0;
+}
+
+.small_head {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.footer__blogs {
+    margin-top: 34px;
+}
+
+.footer__blog {
+    display: flex;
+}
+
+.footer__blog:nth-child(2) {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer__blog__text {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.blog__content {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.footer__blog__date {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #adadad;
+    line-height: 1.1;
+    margin-top: 5px;
+}
+
+.morephoto {
+    font-family: 'Roboto', sans-serif;
+    color: #474747;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.inst__photos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1px;
+    grid-template-rows: auto auto auto;
+    row-gap: 1px;
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+
+.content__footer {
+    padding-bottom: 66px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.copywriting {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.copywriting a {
+    color: #f38181;
+    text-decoration: none;
 }
